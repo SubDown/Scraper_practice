@@ -15,10 +15,9 @@ This project demonstrates a streamlined approach to web scraping and data proces
 
 ## Project Structure
 
-* `scraper_1000.py`: The main web scraping script.
-* `data_analysis.py`: The Pandas script for data cleaning and analysis.
+* `real_scraper.py`: The main web scraping script.
+* `data_analyse.py`: The Pandas script for data cleaning and analysis.
 * `1000_books_data.csv`: The generated dataset.
-* `.gitignore`: Git ignore file for virtual environments and Python caches.
 
 ## How to Run
 
