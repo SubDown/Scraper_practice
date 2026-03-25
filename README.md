@@ -11,8 +11,7 @@ This project demonstrates a streamlined approach to web scraping and data proces
 * **Efficient Scraping:** Uses `requests` and `BeautifulSoup` to iterate through pagination and extract HTML elements.
 * **Data Export:** Saves the raw scraped data into a structured CSV file (`1000_books_data.csv`).
 * **Data Cleaning:** Uses `pandas` to process the raw CSV, removing currency symbols (`£`) and encoding artifacts (`Â`), and casting string prices to float.
-* **Basic Analysis:** Queries the cleaned DataFrame to find aggregate statistics and identify specific data points (e.g., locating the most expensive book in the store).
-
+* **Basic Analysis:** Queries the cleaned DataFrame to find aggregate statistics and identify specific data points.
 ## Project Structure
 
 * `real_scraper.py`: The main web scraping script.
